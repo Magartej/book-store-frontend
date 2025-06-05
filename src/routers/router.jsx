@@ -8,7 +8,7 @@ import CartPage from "../pages/books/CartPage.jsx";
 import CheckoutPage from "../pages/books/CheckoutPage.jsx";
 import SingleBook from "../pages/books/SingleBooks.jsx";
 import OrderPage from "../pages/books/OrderPage.jsx";
-import PrivateRoute from "./PrivateRoute";
+// import PrivateRoute from "./PrivateRoute";
 import AdminLogin from "../components/AdminLogin.jsx";
 import AdminRoute from "./AdminRoute.jsx";
 import DashboardLayout from "../pages/dashboard/DashboardLayout.jsx";
@@ -37,9 +37,9 @@ const router = createBrowserRouter([
       {
         path: "/orders",
         element: (
-          <PrivateRoute>
-            <OrderPage />
-          </PrivateRoute>
+          // <PrivateRoute>
+          <OrderPage />
+          // </PrivateRoute>
         ),
       },
       {

@@ -1,5 +1,5 @@
 const getBaseUrl = () => {
-  return "https://book-store-frontend-delta-beryl.vercel.app";
+  return "http://localhost:5000";
 };
 
 export default getBaseUrl;
